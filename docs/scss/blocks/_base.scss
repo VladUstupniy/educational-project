@@ -8,16 +8,20 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-a {
-    text-decoration: none;
-}
-
 /* 
-    font-family: 'Montserrat', sans-serif;
-     
+    font-family: 'Montserrat', sans-serif; 
 */
 
 .container {
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
 }
