@@ -8,13 +8,15 @@
 
     <!-- css styles -->
     <link rel="stylesheet" href="./css/main.css">
-    <!-- // css styles -->
 
     <!-- Google-font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
-    <!-- // Google-font -->
+
+    <!-- AOS Animation library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     <header class="header">
@@ -36,141 +38,256 @@
         </div>
     </header>
 
-    <section class="section-blog">
-        <!-- CONTAINER -->
-        <div class="container">
-            <!-- BLOG-WRAPPER -->
-            <div class="blog-wrapper">
-                <div class="post">
-                    <div class="post-img">
+    <section class="section-blog container">
+        <!-- BLOG-WRAPPER -->
+        <div class="blog-wrapper">
+            <div class="post" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <div class="post-img">
+                    <a href="#">
+                        <img src="./img/post/post-img-1.jpg" alt="Изображение">
+                    </a>
+                </div>
+                <div class="post-details">
+                    Graphics Design . 23 July, 2018
+                </div>
+                <div class="post-title">
+                    <h2>
                         <a href="#">
-                            <img src="./img/post/post-img-1.jpg" alt="Изображение">
+                            Challenge yourself & win the future.
                         </a>
-                    </div>
-                    <div class="post-details">
-                        Graphics Design . 23 July, 2018
-                    </div>
-                    <div class="post-title">
+                    </h2>
+                </div>
+                <div class="post-text">
+                    <p>This response is important for our ability to learn from mistakes, but it alsogives rise to self-criticism, because it is part of the threat-protection system. In other words…</p>
+                </div>
+                <a href="#" class="post-read-more">
+                    Continue Reading
+                </a>
+            </div>
+
+            <div class="post" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <div class="post-img">
+                    <a href="#">
+                        <img src="./img/post/post-img-2.jpg" alt="Изображение">
+                    </a>
+                </div>
+                <div class="post-details">
+                    Graphics Design . 23 July, 2018
+                </div>
+                <div class="post-title">
+                    <a href="#">
                         <h2>
-                            <a href="#">
-                                Challenge yourself & win the future.
-                            </a>
+                            Challenge yourself & win the future.
                         </h2>
-                    </div>
-                    <div class="post-text">
-                        <p>This response is important for our ability to learn from mistakes, but it alsogives rise to self-criticism, because it is part of the threat-protection system. In other words…</p>
-                    </div>
-                    <a href="#" class="post-read-more">
-                        Continue Reading
                     </a>
                 </div>
-
-                <div class="post">
-                    <div class="post-img">
-                        <a href="#">
-                            <img src="./img/post/post-img-2.jpg" alt="Изображение">
-                        </a>
-                    </div>
-                    <div class="post-details">
-                        Graphics Design . 23 July, 2018
-                    </div>
-                    <div class="post-title">
-                        <a href="#">
-                            <h2>
-                                Challenge yourself & win the future.
-                            </h2>
-                        </a>
-                    </div>
-                    <div class="post-text">
-                        <p>This response is important for our ability to learn from mistakes, but it alsogives rise to self-criticism, because it is part of the threat-protection system. In other words…</p>
-                    </div>
-                    <a href="#" class="post-read-more">
-                        Continue Reading
-                    </a>
+                <div class="post-text">
+                    <p>This response is important for our ability to learn from mistakes, but it alsogives rise to self-criticism, because it is part of the threat-protection system. In other words…</p>
                 </div>
-
-                <div class="post">
-                    <div class="post-img">
-                        <a href="#">
-                            <img src="./img/post/post-img-3.jpg" alt="Изображение">
-                        </a>
-                    </div>
-                    <div class="post-details">
-                        Graphics Design . 23 July, 2018
-                    </div>
-                    <div class="post-title">
-                        <a href="#">
-                            <h2>
-                                Challenge yourself & win the future.
-                            </h2>
-                        </a>
-                    </div>
-                    <div class="post-text">
-                        <p>This response is important for our ability to learn from mistakes, but it alsogives rise to self-criticism, because it is part of the threat-protection system. In other words…</p>
-                    </div>
-                    <a href="#" class="post-read-more">
-                        Continue Reading
-                    </a>
-                </div>
-
-                <div class="post">
-                    <div class="post-img">
-                        <a href="#">
-                            <img src="./img/post/post-img-4.jpg" alt="Изображение">
-                        </a>
-                    </div>
-                    <div class="post-details">
-                        Graphics Design . 23 July, 2018
-                    </div>
-                    <div class="post-title">
-                        <a href="#">
-                            <h2>
-                                Challenge yourself & win the future.
-                            </h2>
-                        </a>
-                    </div>
-                    <div class="post-text">
-                        <p>This response is important for our ability to learn from mistakes, but it alsogives rise to self-criticism, because it is part of the threat-protection system. In other words…</p>
-                    </div>
-                    <a href="#" class="post-read-more">
-                        Continue Reading
-                    </a>
-                </div>
-
-                <div class="post">
-                    <div class="post-img">
-                        <a href="#">
-                            <img src="./img/post/post-img-5.jpg" alt="Изображение">
-                        </a>
-                    </div>
-                    <div class="post-details">
-                        Graphics Design . 23 July, 2018
-                    </div>
-                    <div class="post-title">
-                        <a href="#">
-                            <h2>
-                                Challenge yourself & win the future.
-                            </h2>
-                        </a>
-                    </div>
-                    <div class="post-text">
-                        <p>This response is important for our ability to learn from mistakes, but it alsogives rise to self-criticism, because it is part of the threat-protection system. In other words…</p>
-                    </div>
-                    <a href="#" class="post-read-more">
-                        Continue Reading
-                    </a>
-                </div>
+                <a href="#" class="post-read-more">
+                    Continue Reading
+                </a>
             </div>
-            <!-- // BLOG-WRAPPER -->
 
-            <!-- SIDE-BAR -->
-            <div class="side-bar">
-
+            <div class="post" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <div class="post-img">
+                    <a href="#">
+                        <img src="./img/post/post-img-3.jpg" alt="Изображение">
+                    </a>
+                </div>
+                <div class="post-details">
+                    Graphics Design . 23 July, 2018
+                </div>
+                <div class="post-title">
+                    <a href="#">
+                        <h2>
+                            Challenge yourself & win the future.
+                        </h2>
+                    </a>
+                </div>
+                <div class="post-text">
+                    <p>This response is important for our ability to learn from mistakes, but it alsogives rise to self-criticism, because it is part of the threat-protection system. In other words…</p>
+                </div>
+                <a href="#" class="post-read-more">
+                    Continue Reading
+                </a>
             </div>
-            <!-- // SIDE-BAR -->
+
+            <div class="post" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <div class="post-img">
+                    <a href="#">
+                        <img src="./img/post/post-img-4.jpg" alt="Изображение">
+                    </a>
+                </div>
+                <div class="post-details">
+                    Graphics Design . 23 July, 2018
+                </div>
+                <div class="post-title">
+                    <a href="#">
+                        <h2>
+                            Challenge yourself & win the future.
+                        </h2>
+                    </a>
+                </div>
+                <div class="post-text">
+                    <p>This response is important for our ability to learn from mistakes, but it alsogives rise to self-criticism, because it is part of the threat-protection system. In other words…</p>
+                </div>
+                <a href="#" class="post-read-more">
+                    Continue Reading
+                </a>
+            </div>
+
+            <div class="post" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <div class="post-img">
+                    <a href="#">
+                        <img src="./img/post/post-img-5.jpg" alt="Изображение">
+                    </a>
+                </div>
+                <div class="post-details">
+                    Graphics Design . 23 July, 2018
+                </div>
+                <div class="post-title">
+                    <a href="#">
+                        <h2>
+                            Challenge yourself & win the future.
+                        </h2>
+                    </a>
+                </div>
+                <div class="post-text">
+                    <p>This response is important for our ability to learn from mistakes, but it alsogives rise to self-criticism, because it is part of the threat-protection system. In other words…</p>
+                </div>
+                <a href="#" class="post-read-more">
+                    Continue Reading
+                </a>
+            </div>
         </div>
-        <!-- // CONTAINER --> 
+        <!-- // BLOG-WRAPPER -->
+
+        <!-- SIDEBAR -->
+        <div class="sidebar">
+            <!-- WIDGET SEARCH -->
+            <div class="widget-search">
+                <div class="form">
+                    <input type="text" placeholder="Поиск.." class="search-input">
+                    <button type="submit" class="search-btn">
+                        <img src="./img/sidebar/icon-search.png" alt="Иконка">
+                    </button>
+                </div>
+            </div>
+            <!-- // WIDGET SEARCH -->
+
+            <!-- WIDGET CATEGORIES -->
+            <div class="widget-categories">
+                <h4 class="widget-title">Категории</h4>
+                <ul class="categories-list">
+                    <li class="categories-list-item">
+                        <a href="#" class="categories-list-link">
+                            Веб-дизайн (10)
+                        </a>
+                    </li>
+
+                    <li class="categories-list-item">
+                        <a href="#" class="categories-list-link">
+                            Графика (06)
+                        </a>
+                    </li>
+
+                    <li class="categories-list-item">
+                        <a href="#" class="categories-list-link">
+                            Мобильные приложения (28)
+                        </a>
+                    </li>
+
+                    <li class="categories-list-item">
+                        <a href="#" class="categories-list-link">
+                            Путешествия (15)
+                        </a>
+                    </li>
+
+                    <li class="categories-list-item">
+                        <a href="#" class="categories-list-link">
+                            Технологии (50)
+                        </a>
+                    </li>
+
+                    <li class="categories-list-item">
+                        <a href="#" class="categories-list-link">
+                            Другое (05)
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- // WIDGET CATEGORIES -->
+
+            <!-- WIDGET NEW ENTRIES -->
+            <div class="widget-new-post">
+                <h4 class="widget-title widget-title--new-post">Новые записи</h4>
+
+                <div class="new-post">
+                    <div class="new-post-img">
+                        <img src="./img/sidebar/mini-img-1.jpg" alt="Картинка">
+                    </div>
+
+                    <div class="new-post-content">
+                        <h5 class="new-post-title">
+                            10 days challange boost for online visitors.
+                        </h5>
+    
+                        <div class="new-post-date">
+                            23 July, 2018
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="new-post">
+                    <div class="new-post-img">
+                        <img src="./img/sidebar/mini-img-2.jpg" alt="Картинка">
+                    </div>
+
+                    <div class="new-post-content">
+                        <h5 class="new-post-title">
+                            10 days challange boost for online visitors.
+                        </h5>
+    
+                        <div class="new-post-date">
+                            23 July, 2018
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- // WIDGET NEW ENTRIES -->
+
+            <!-- WIDGET TAGS -->
+            <div class="widget-tags">
+                <h4 class="widget-title">Теги</h4>
+
+                <div class="tags-wrapper">
+                    <button class="tag">Ideas</button>
+                    <button class="tag">Education</button>
+                    <button class="tag">Design</button>
+                    <button class="tag">Development</button>
+                    <button class="tag">Branding</button>
+                </div>
+            </div>
+            <!-- // WIDGET TAGS -->
+
+            <!-- WIDGET PUBLICITY -->
+            <div class="widget-commerce">
+                <div class="commerce-desc">Рекламный блок</div>
+                <div class="commerce-text">Только летом Скидки до 70%</div>
+            </div>
+            <!-- // WIDGET PUBLICITY -->
+        </div>
+        <!-- // SIDEBAR -->
     </section>
 
+    <!-- AOS library js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Main js -->
+    <script src="./js/main.js"></script>
 </body>
 </html>
